@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "隐私政策.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/隐私政策.html"
+    },
+    {
+      "src": "/隐私政策.html",
+      "dest": "/隐私政策.html"
+    }
+  ]
+}
